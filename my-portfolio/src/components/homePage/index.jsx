@@ -1,9 +1,14 @@
+import FooterComponent from "../footer";
+import Header from "../header";
+import Projects from "../projectsPage";
 
 
 const HomePage = () => {
     return (
-        <div>
-           <h1>Home Page</h1>
+        <div className="flex flex-col min-h-screen">
+           <Header />
+           <Projects className="flex-grow" />
+           <FooterComponent />
         </div>
     )
 }

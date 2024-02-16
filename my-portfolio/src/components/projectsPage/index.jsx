@@ -1,7 +1,7 @@
-const Projects = () => {
+const Projects = ( { className } ) => {
     return (
-        <div>
-            <h1>Projects</h1>
+        <div className={className}>
+            <h1>lorem iPSUM</h1>
             
         </div>
     )
