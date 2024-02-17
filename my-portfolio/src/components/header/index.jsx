@@ -1,7 +1,7 @@
 import Navbar from "../navbar";
 import { Card } from "flowbite-react"
 
-const Header = () => {
+const Header = ( { className } ) => {
     return (
         <div>
             <Navbar />
