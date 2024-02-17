@@ -1,17 +1,22 @@
-import CarouselTest from "../CarouselTest";
+import ProjectList from "../ProjectsList";
+import AboutMe from "../aboutMe";
 import FooterComponent from "../footer";
 import Header from "../header";
+import Hero from "../heroSection"
 import Projects from "../projectsPage";
 
 
 
 const HomePage = () => {
     return (
-        <div className="flex flex-col min-h-screen">
-           <Header />
-           <Projects className="flex-grow" />
-           <FooterComponent />
-           
+        <div>
+            
+            <Header />
+            <Hero />
+            <AboutMe />
+            <Projects/>
+            <ProjectList />
+            <FooterComponent />
         </div>
     )
 }

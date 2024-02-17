@@ -4,8 +4,8 @@ const Projects = ( { className } ) => {
 
 
     return (
-        <div className={className}>
-            <div>
+        <div>
+            <div className="mb-8">
                 <ProjectCarousel />            
             </div>
         </div>

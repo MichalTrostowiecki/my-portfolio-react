@@ -8,7 +8,11 @@ export default {
     "node_modules/flowbite-react/**/*.js"
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'custom-gradient': 'radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(6,4,40,1) 100%)',
+      }
+    },
   },
   plugins: [
     Flowbite

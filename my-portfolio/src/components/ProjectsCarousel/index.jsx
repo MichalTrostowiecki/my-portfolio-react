@@ -4,7 +4,7 @@ import Project from '../singleProject'
 
 const ProjectCarousel = () => {
     return (
-        <div className='h-[50vh] w-1/2 mx-auto'>    
+        <div className='h-[40vh] w-3/4 mx-auto'>    
             <Carousel slide={false} pauseOnHover>
                 {projects.map((project) => (
                     <Project key={project.id} project={project} />
