@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "my first project",
+        "github": "https://github.com/MichalTrostowiecki",
+        "demo": "https://github.com/MichalTrostowiecki",
+        "screenshot": "./src/assets/images/1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "my second project",
+        "github": "https://github.com/MichalTrostowiecki",
+        "demo": "https://github.com/MichalTrostowiecki",
+        "screenshot": "./src/assets/images/1.jpg"
+    }
+]
