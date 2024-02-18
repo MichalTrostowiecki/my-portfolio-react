@@ -11,7 +11,7 @@ const Hero = () => {
                     Michal
                 </span> Trostowiecki
             </h1>
-            <TypingEffect text="Passionate Frontend Developer Crafting Engaging Web Experiences." speed={50} />
+            <TypingEffect text="Passionate Frontend Developer Crafting Engaging Web Experiences" speed={50} />
             <button className="animate-fadeDown ml-3 xl:ml-32  bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded">My Work</button>
         </div>
     )

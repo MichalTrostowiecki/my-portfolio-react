@@ -5,7 +5,9 @@
         "github": "https://github.com/leesoohang/hotel-horizon",
         "demo": "https://leesoohang.github.io/hotel-horizon/",
         "screenshot": "/src/assets/images/projectsScreenshots/screenshot1.png",
-        "description": "This application is designed for corporate travelers who are looking to book hotel accommodation, in a city where they go on a business trip. Using search criteria, they are presented with hotel options according to popularity. When browsing hotels, users can check more photos, location on map and nearby restaurants in detail. The price per night, in total and rating information gives a better idea for business travelers if they are on a budget. Users are able to save hotel to favorites in order to check again later. Whenever they are ready, they can go back to the application, locate the favorite list and proceed with booking."
+        "description": "This application is designed for corporate travelers who are looking to book hotel accommodation, in a city where they go on a business trip. Using search criteria, they are presented with hotel options according to popularity. When browsing hotels, users can check more photos, location on map and nearby restaurants in detail. The price per night, in total and rating information gives a better idea for business travelers if they are on a budget. Users are able to save hotel to favorites in order to check again later. Whenever they are ready, they can go back to the application, locate the favorite list and proceed with booking.",
+        "technologies": ["HTML,JavaScript,CSS,jQuery,Bootstrap,Font Awesome,Booking com API via RapidAPI"]
+    
     },
     {
         "id": 2,
@@ -13,7 +15,8 @@
         "github": "https://github.com/MichalTrostowiecki/speed-quiz-challenge",
         "demo": "https://michaltrostowiecki.github.io/speed-quiz-challenge/",
         "screenshot": "/src/assets/images/projectsScreenshots/screenshot2.png",
-        "description": "This project is a dynamic, interactive speed quiz implemented in JavaScript. The quiz presents users with a series of questions and a countdown timer. For each incorrect answer, time is deducted from the timer, adding a layer of challenge and urgency to the quiz. At the end of the quiz, users can enter their initials or name to record their score on a leaderboard. This allows users to compete against each other and strive to improve their scores. One of the unique features of this quiz is the use of sound effects. When users select an answer, a sound effect is played to indicate whether the answer was correct or incorrect. This was my first time incorporating sound into a JavaScript application, providing an engaging, multi-sensory user experience. The project was a challenging and rewarding opportunity to apply and deepen my understanding of JavaScript, particularly events, timers, and local storage."
+        "description": "This project is a dynamic, interactive speed quiz implemented in JavaScript. The quiz presents users with a series of questions and a countdown timer. For each incorrect answer, time is deducted from the timer, adding a layer of challenge and urgency to the quiz. At the end of the quiz, users can enter their initials or name to record their score on a leaderboard. This allows users to compete against each other and strive to improve their scores. One of the unique features of this quiz is the use of sound effects. When users select an answer, a sound effect is played to indicate whether the answer was correct or incorrect. This was my first time incorporating sound into a JavaScript application, providing an engaging, multi-sensory user experience. The project was a challenging and rewarding opportunity to apply and deepen my understanding of JavaScript, particularly events, timers, and local storage.",
+        "technologies": ["HTML,JavaScript,CSS,jQuery,Local Storage"]
     },
     {
         "id": 3,
@@ -21,7 +24,8 @@
         "github": "https://github.com/MichalTrostowiecki/location-weather-app",
         "demo": "https://michaltrostowiecki.github.io/location-weather-app/",
         "screenshot": "/src/assets/images/projectsScreenshots/screenshot3.png",
-        "description": "This is a simple weather forecast application that allows users to search for the current weather and 5-day forecast for any city."
+        "description": "This is a simple weather forecast application that allows users to search for the current weather and 5-day forecast for any city.",
+        "technologies": ["Api,Javascript,jQuery,CSS,HTML"]
     },
     {
         "id": 4,
@@ -29,22 +33,25 @@
         "github": "https://github.com/MichalTrostowiecki/work-day-planner",
         "demo": "https://michaltrostowiecki.github.io/work-day-planner/",
         "screenshot": "/src/assets/images/projectsScreenshots/screenshot4.png",
-        "description": "This project was an exciting opportunity for me to apply the skills I've been learning, especially in JavaScript, and to explore new tools and libraries. The application is designed to assist busy professionals in effectively managing their daily schedules."
+        "description": "This project was an exciting opportunity for me to apply the skills I've been learning, especially in JavaScript, and to explore new tools and libraries. The application is designed to assist busy professionals in effectively managing their daily schedules.",
+        "technologies": ["Day.js,jQuery,Javascript,Html,CSS"]
     },
     {
         "id": 5,
         "name": "Readme.md Generator",
         "github": "https://github.com/MichalTrostowiecki/project-readme-generator",
-        "demo": "https://drive.google.com/file/d/1DsEcRvzGGAO6-zXRRfjY_pcbWX7-9sJo/view?usp=sharing",
+        "demo": "https://github.com/MichalTrostowiecki/project-readme-generator",
         "screenshot": "/src/assets/images/projectsScreenshots/screenshot5.png",
-        "description": "This project allow the user to create readme.md file based on user input. File is automaticaly created once all the questions are answered."
+        "description": "This project allow the user to create readme.md file based on user input. File is automaticaly created once all the questions are answered.",
+        "technologies": ["Javascript,Node.js,Inquirer"]
     },
     {
         "id": 6,
         "name": "Team Profile Generator",
         "github": "https://github.com/MichalTrostowiecki/team-profile-generator",
-        "demo": "https://github.com/MichalTrostowiecki",
+        "demo": "https://github.com/MichalTrostowiecki/team-profile-generator",
         "screenshot": "/src/assets/images/projectsScreenshots/screenshot6.png",
-        "description": "The aim of this project is to generate an HTML file that displays a team roster. Team members are added through the command line interface. After the team is built, the HTML file is automatically generated to include the added members."
+        "description": "The aim of this project is to generate an HTML file that displays a team roster. Team members are added through the command line interface. After the team is built, the HTML file is automatically generated to include the added members.",
+        "technologies": ["Jest,Javascript,Node.js,HTML,CSS,Inquirer"]
     }
 ]

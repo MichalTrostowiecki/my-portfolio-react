@@ -4,6 +4,7 @@ import PropTypes from 'prop-types'
 
 const Project = ( { project } ) => {
 
+
     return (
         <div className='relative h-full'>
             <img className="rounded object-fit object-scale-down h-full w-full" src={project.screenshot} alt="..." />
