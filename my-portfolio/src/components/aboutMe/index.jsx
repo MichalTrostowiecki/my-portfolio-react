@@ -3,7 +3,7 @@
 const AboutMe = () => {
     return (
 		<div className="p-4 mx-auto flex flex-col items-center mb-10">
-			<p className="p-5 w-3/4 text-xl font-semibold leading-relaxed text-gray-900 dark:text-white">
+			<p className="max-w-full md:w-3/4 p-5 text-xl font-semibold leading-relaxed text-gray-900 dark:text-white">
 				Transitioning from personal training into web development, I bring a unique blend of client-focused skills and technical expertise.
 				My dedication to this new path is marked by completing an EDX Front-End Development Bootcamp,
 				where I honed my abilities in HTML, JavaScript, CSS, and React.

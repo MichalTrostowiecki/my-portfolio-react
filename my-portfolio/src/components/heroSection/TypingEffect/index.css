@@ -1,0 +1,20 @@
+.typing-effect {
+  white-space: nowrap;
+  overflow: hidden;
+  padding-right: 0.5em;
+}
+
+.typing-effect::after {
+  content: '|';
+  animation: blink 1s infinite;
+  color: black;
+}
+
+@keyframes blink {
+  0%, 100% {
+    border-color: black;
+  }
+  50% {
+    border-color: transparent;
+  }
+}
