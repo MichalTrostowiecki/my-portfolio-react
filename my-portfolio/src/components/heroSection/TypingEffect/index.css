@@ -1,7 +1,12 @@
 .typing-effect {
-  white-space: nowrap;
   overflow: hidden;
   padding-right: 0.5em;
+}
+
+@media (max-width: 640px) { /* This is Tailwind's 'sm' breakpoint */
+  .typing-effect {
+    white-space: normal; /* Allow text wrapping on small screens */
+  }
 }
 
 .typing-effect::after {
@@ -9,6 +14,8 @@
   animation: blink 1s infinite;
   color: black;
 }
+
+
 
 @keyframes blink {
   0%, 100% {
