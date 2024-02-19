@@ -1,5 +1,5 @@
 import { Footer } from 'flowbite-react';
-import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from 'react-icons/bs';
+import { BsGithub } from 'react-icons/bs';
 
 
 const FooterComponent = () => {
@@ -38,11 +38,7 @@ const FooterComponent = () => {
                 <div className="w-full sm:flex sm:items-center sm:justify-between">
                     <Footer.Copyright href="#" year={2024} className='ml-3 mb-4'/>
                     <div className="p-2 flex space-x-6 sm:mb-0 sm:justify-center">
-                        <Footer.Icon href="#" icon={BsFacebook} />
-                        <Footer.Icon href="#" icon={BsInstagram} />
-                        <Footer.Icon href="#" icon={BsTwitter} />
                         <Footer.Icon href="#" icon={BsGithub} />
-                        <Footer.Icon href="#" icon={BsDribbble} />
                     </div>
                 </div>
             </div>
