@@ -8,7 +8,7 @@ const AboutMe = () => {
 				About Me
 			</h2>
 			<div>
-				<p className="max-w-full md:w-3/4 p-5 text-xl font-semibold leading-relaxed text-white mx-auto">
+				<p className="text-center max-w-full md:w-3/4 p-5 text-xl font-semibold leading-relaxed text-white/85 mx-auto">
 					Transitioning from personal training into web development, I bring a unique blend of client-focused skills and technical expertise.
 					My dedication to this new path is marked by completing an EDX Front-End Development Bootcamp,
 					where I honed my abilities in HTML, JavaScript, CSS, and React.

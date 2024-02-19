@@ -18,7 +18,7 @@ const TypingEffect = ({ text, speed = 100 }) => {
         return () => clearInterval(intervalId);
     }, [text, speed]);
 
-    return <div className="w-full overflow-x-hidden text-wrap ml-3 text-lg lg:text-2xl xl:ml-32 text-white mb-8">
+    return <div className="w-3/4 overflow-x-hidden text-wrap ml-5 text-md lg:text-2xl xl:ml-32 text-white mb-8">
                 <span className='typing-effect break-words'>{typedText}</span>
            </div>;
 };

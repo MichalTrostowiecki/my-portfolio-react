@@ -15,8 +15,8 @@ const ReadMore = ({ project, openModal, setOpenModal }) => {
 
   return (
 	<>
-		<Modal className='bg-black' dismissible show={openModal} onClose={() => setOpenModal(false)}>
-			<Modal.Header>{project.name}</Modal.Header>
+		<Modal className='bg-black modal-read-more' dismissible show={openModal} onClose={() => setOpenModal(false)}>
+			<Modal.Header className='modal-header'>{project.name}</Modal.Header>
 			<Modal.Body className='bg-black'>
 				<img src={project.screenshot}></img>
 				<div className="space-y-6">
@@ -33,7 +33,7 @@ const ReadMore = ({ project, openModal, setOpenModal }) => {
 					</ul>
 				</div>
 			</Modal.Body>
-			<Modal.Footer>
+			<Modal.Footer className='modal-footer'>
 				<a href={project.github} target='_blank' rel='noopener noreferrer'>
 					<Button>GitHub</Button>
 				</a>

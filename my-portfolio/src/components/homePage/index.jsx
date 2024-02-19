@@ -1,5 +1,5 @@
 import ProjectList from "../ProjectsList";
-import AboutMe from "../aboutMe";
+import AboutMe from "../aboutPage/aboutMe";
 import FooterComponent from "../footer";
 import Header from "../header";
 import Hero from "../heroSection"

@@ -5,20 +5,31 @@
 
 /* -----------------  Buttons on carousel ----------------- */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 680px) {
     
     button[data-testid="carousel-left-control"] > span,
     button[data-testid="carousel-right-control"] > span {
         background-color: white;
+        color: black;
     }
 
     button[data-testid="carousel-left-control"] > span:hover,
     button[data-testid="carousel-right-control"] > span:hover {
         background-color: rgba(255, 255, 255, 0.515);
+        color: black;
     }
 
     button[data-testid="carousel-indicator"] {
         background: white;
         border: 1px solid black;
     }
+}
+
+
+/* -----------------  Read More Modal ----------------- */
+
+.modal-footer,
+.modal-header { 
+    background: rgba(0, 0, 0, 0.478);
+    
 }

@@ -8,7 +8,7 @@ const ProjectsPage = () => {
     return (
         <div>
             <Navbar />
-            <div style={{ paddingTop: '80px', margin: '5px' }}> {/* Adjusted padding-top */}
+            <div style={{ paddingTop: '80px' }}> {/* Adjusted padding-top */}
                 <Projects />
                 <ProjectList />
             </div>
