@@ -15,7 +15,7 @@ const ProjectList = () => {
         <div className='mt-64 mb-32'>
         <div>
             <h2 className='underline decoration-sky-500 text-center mx-auto p-5 w-3/4 text-3xl font-semibold
-                leading-relaxed text-gray-900 dark:text-white underline-offset-8'>
+                leading-relaxed text-white underline-offset-8'>
                 Other Projects
             </h2>
         </div>

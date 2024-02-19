@@ -4,14 +4,12 @@ import Footer from "../footer"
 
 const Contact = () => {
     return (
-        <div>
+        <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
             <Navbar />
-            <div style={{ paddingTop: '80px', margin: '5px' }}> {/* Adjusted padding-top */}
+            <div style={{ paddingTop: '80px', margin: '5px', flex: '1' }}> {/* Adjusted padding-top */}
                 <ContactForm />
             </div>
-            <div style={{ marginTop: '200px' }}>
-                <Footer />
-            </div>
+            <Footer />
         </div>
     )
 }

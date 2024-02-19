@@ -13,9 +13,9 @@ const ProjectCard = ( { project } ) => {
 
 
     return (
-        <div className="w-full flex flex-col h-full m-2 max-w-sm border hover:border-1 hover:border-cyan-600 rounded-lg shadow bg-neutral-900 border-black hover:bg-black group">
+        <div className="w-3/4 sm:w-full flex flex-col h-full m-2 max-w-sm border hover:border-1 hover:border-cyan-600 rounded-lg shadow bg-neutral-900 border-black hover:bg-black group">
             <a href={project.demo ? project.demo : project.github}>
-                <img className="brightness-75 group-hover:brightness-100  w-full h-64 object-cover rounded-3xl p-3" src={project.screenshot} alt="" />
+                <img className="brightness-75 group-hover:brightness-100 w-full h-64 object-contain md:object-cover rounded-3xl p-3" src={project.screenshot} alt="" />
             </a>
             <div className="flex flex-col h-full p-5 rounded-xl border-black m-3 bg-zinc-800  group-hover:bg-black">
                 <div className="flex-grow">
