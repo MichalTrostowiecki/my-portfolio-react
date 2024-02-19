@@ -3,20 +3,32 @@
 @tailwind utilities;
 
 
+button[data-testid="carousel-left-control"] > span,
+button[data-testid="carousel-right-control"] > span {
+    background-color: rgba(48, 48, 48, 0.456);
+}
+
+button[data-testid="carousel-left-control"] > span:hover,
+button[data-testid="carousel-right-control"] > span:hover {
+        background-color: rgba(255, 255, 255, 0.727);
+     
+}
+
+
 /* -----------------  Buttons on carousel ----------------- */
 
 @media only screen and (max-width: 680px) {
     
     button[data-testid="carousel-left-control"] > span,
     button[data-testid="carousel-right-control"] > span {
-        background-color: white;
-        color: black;
+        background-color: rgba(48, 48, 48, 0.456);
+        
     }
 
     button[data-testid="carousel-left-control"] > span:hover,
     button[data-testid="carousel-right-control"] > span:hover {
-        background-color: rgba(255, 255, 255, 0.515);
-        color: black;
+        background-color: rgba(255, 255, 255, 0.727);
+        
     }
 
     button[data-testid="carousel-indicator"] {
@@ -32,4 +44,11 @@
 .modal-header { 
     background: rgba(0, 0, 0, 0.478);
     
+}
+
+
+/* -----------------  Contact Form ----------------- */
+
+label[data-testid="flowbite-label"] {
+    color:white;
 }

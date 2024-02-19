@@ -3,7 +3,7 @@
 const AboutMe = () => {
     return (
 		<div className="p-4 mx-auto flex flex-col items-center mb-10">
-			<h2 className="underline decoration-sky-500 text-center mx-auto p-5 w-3/4 text-3xl font-semibold
+			<h2 className="underline decoration-cyan-400 text-center mx-auto p-5 w-3/4 text-3xl font-semibold
                 leading-relaxed text-white underline-offset-8">
 				About Me
 			</h2>
