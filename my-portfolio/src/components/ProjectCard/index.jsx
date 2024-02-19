@@ -19,7 +19,7 @@ const ProjectCard = ( { project } ) => {
             </a>
             <div className="flex flex-col h-full p-5 rounded-xl border-black m-3 bg-zinc-800  group-hover:bg-black">
                 <div className="flex-grow">
-                    <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">{project.name}</h5>
+                    <h5 className="text-xl font-semibold tracking-tight text-white">{project.name}</h5>
                 </div>
                 <a href="#" onClick={handleReadMore} className="group h-8 relative overflow-hidden mt-4 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-cyan-600 rounded-lg hover:bg-cyan-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800">
                     <span className="font-semibold absolute inline-flex items-center transition-transform duration-500 ease-in-out transform group-hover:translate-x-12">

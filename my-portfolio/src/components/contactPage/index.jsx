@@ -6,7 +6,7 @@ const Contact = () => {
     return (
         <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
             <Navbar />
-            <div style={{ paddingTop: '80px', margin: '5px', flex: '1' }}> {/* Adjusted padding-top */}
+            <div style={{ paddingTop: '80px', margin: '5px', flex: '1' }}>
                 <ContactForm />
             </div>
             <Footer />

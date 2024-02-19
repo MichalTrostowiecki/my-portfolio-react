@@ -4,17 +4,21 @@
 
 
 /* -----------------  Buttons on carousel ----------------- */
-button[data-testid="carousel-left-control"] > span,
-button[data-testid="carousel-right-control"] > span {
-    background-color: white;
-}
 
-button[data-testid="carousel-left-control"] > span:hover,
-button[data-testid="carousel-right-control"] > span:hover {
-    background-color: rgba(255, 255, 255, 0.515);
-}
+@media only screen and (max-width: 480px) {
+    
+    button[data-testid="carousel-left-control"] > span,
+    button[data-testid="carousel-right-control"] > span {
+        background-color: white;
+    }
 
-button[data-testid="carousel-indicator"] {
-    background: white;
-    border: 1px solid black;
+    button[data-testid="carousel-left-control"] > span:hover,
+    button[data-testid="carousel-right-control"] > span:hover {
+        background-color: rgba(255, 255, 255, 0.515);
+    }
+
+    button[data-testid="carousel-indicator"] {
+        background: white;
+        border: 1px solid black;
+    }
 }
