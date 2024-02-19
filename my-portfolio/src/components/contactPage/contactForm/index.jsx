@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'; 
+import { useState } from 'react'; 
 import { Button, Textarea, Label, TextInput } from 'flowbite-react';
 import { HiMail } from 'react-icons/hi';
 
@@ -23,7 +23,6 @@ function ContactForm() {
         const commentValue = document.getElementById('comment').value;
     
         const isNameValid = nameValue.trim() !== '';
-        console.log("isNameValid: " ,isNameValid);
         const isEmailValid = emailValue.trim() !== '' && document.getElementById('email1').checkValidity();
         const isCommentValid = commentValue.trim() !== '';
     

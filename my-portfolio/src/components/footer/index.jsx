@@ -17,7 +17,7 @@ const FooterComponent = () => {
                         <a href="/contact" className="mr-3 text-gray-400 hover:text-gray-900 dark:hover:text-white">Contact</a>
                     </li>
                     <li>
-                        <a href="/about" className="mr-3 text-gray-400 hover:text-gray-900 dark:hover:text-white">CV</a>
+                        <a href="https://drive.google.com/file/d/1GGiUrTBKYwJvYmHirb__I0eWt7flAvyX/view?usp=sharing" className="mr-3 text-gray-400 hover:text-gray-900 dark:hover:text-white">CV</a>
                     </li>
                     <li>
                         <a href="https://github.com/MichalTrostowiecki" className="text-gray-400 hover:text-gray-900 dark:hover:text-white" aria-label="GitHub">

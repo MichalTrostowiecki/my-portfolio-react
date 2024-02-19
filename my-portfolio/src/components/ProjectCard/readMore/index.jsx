@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 
 const ReadMore = ({ project, openModal, setOpenModal }) => {
   
-	const techonologies = () => {
+	const technologies = () => {
 		const technologies = project.technologies[0].split(',');
 		return technologies.map((tech, index) => {
 			return <li className='m-1 flex-wrap text-sky-400/100' key={index}>{tech.trim()}</li>
@@ -29,7 +29,7 @@ const ReadMore = ({ project, openModal, setOpenModal }) => {
 						Technologies:
 					</h2>
 					<ul className="flex text-base leading-relaxed">
-						{techonologies()}
+						{technologies()}
 					</ul>
 				</div>
 			</Modal.Body>

@@ -42,6 +42,11 @@ function Navbar() {
                     </a>
                 </li>
                 <li>
+                    <a href="https://drive.google.com/file/d/1GGiUrTBKYwJvYmHirb__I0eWt7flAvyX/view?usp=sharing" className="block py-2 px-3 text-white rounded hover:bg-cyan-600 md:hover:bg-transparent md:border-0 md:hover:text-cyan-700 md:p-0 dark:text-white md:dark:hover:text-cyan-500 dark:hover:bg-cyan-700 dark:hover:text-white md:dark:hover:bg-transparent">
+                        CV
+                    </a>
+                </li>
+                <li>
                     <a href="/contact" className="block py-2 px-3 text-white rounded hover:bg-cyan-600 md:hover:bg-transparent md:border-0 md:hover:text-cyan-700 md:p-0 dark:text-white md:dark:hover:text-cyan-500 dark:hover:bg-cyan-700 dark:hover:text-white md:dark:hover:bg-transparent">
                         Contact
                     </a>
