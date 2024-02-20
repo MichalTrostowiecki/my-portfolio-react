@@ -7,7 +7,7 @@ import Projects from "../projectsDisplay";
 import Skills from "../skills";
 
 
-
+// Define HomePage component
 const HomePage = () => {
     return (
         <div>

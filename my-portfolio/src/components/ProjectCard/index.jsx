@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
+// This component represents an individual project card in the project list
 const ProjectCard = ({ project }) => {
     return (
         <div className="w-3/4 sm:w-full flex flex-col h-full m-2 max-w-sm border hover:border-1 hover:border-cyan-600 rounded-lg shadow bg-neutral-900 border-black hover:bg-black group">

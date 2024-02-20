@@ -1,12 +1,15 @@
+import React from "react";
 import Navbar from "../navbar";
 
-
-const Header = ( { className } ) => {
+// Define Header component
+const Header = () => {
     return (
         <div>
             <Navbar />
         </div>
-    )
-}
+    );
+};
+
+
 
 export default Header;

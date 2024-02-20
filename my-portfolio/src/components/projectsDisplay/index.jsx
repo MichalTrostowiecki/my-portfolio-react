@@ -1,6 +1,6 @@
 import ProjectCarousel from "../ProjectsCarousel";
 
-const Projects = ( { className } ) => {
+const Projects = () => {
 
 
     return (

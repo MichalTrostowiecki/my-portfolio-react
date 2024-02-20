@@ -2,18 +2,15 @@ import { useState } from 'react';
 import { Button, Textarea, Label, TextInput } from 'flowbite-react';
 import { HiMail } from 'react-icons/hi';
 
-
-
-
-
+// Define the ContactForm component
 function ContactForm() {
 
+    // Define state variables for input validation
     const [nameValid, setNameValid] = useState('gray');
     const [emailValid, setEmailValid] = useState('gray');
     const [messageValid, setMessageValid] = useState('gray');
 
-    
-
+    // Handle form submission
     const handleSubmit = (event) => {
         event.preventDefault();
     
@@ -49,70 +46,70 @@ function ContactForm() {
         }
     }
     
-
+    // Handle name input change
     const handleNameChange = (event) => {
         setNameValid(event.target.value !== '' ? 'success' : 'failure');
     }
 
+    // Handle email input change
     const handleEmailChange = (event) => {
         setEmailValid(event.target.checkValidity() ? 'success' : 'failure');
     }
 
+    // Handle message input change
     const handleMessageChange = (event) => {
         setMessageValid(event.target.value !== '' ? 'success' : 'failure');
     }
         
-  
-
-
-  return (
-    <form className="flex p-3 max-w-md flex-col gap-4 mx-auto" onSubmit={handleSubmit} noValidate>
-        <div>
-            <div className="mb-2 block"> 
-                <Label htmlFor="name" color={nameValid} value="Your name" className='label-form-contact'/>
+    // Render the ContactForm component
+    return (
+        <form className="flex p-3 max-w-md flex-col gap-4 mx-auto" onSubmit={handleSubmit} noValidate>
+            <div>
+                <div className="mb-2 block"> 
+                    <Label htmlFor="name" color={nameValid} value="Your name" className='label-form-contact'/>
+                </div>
+                <TextInput 
+                    id="name" 
+                    color={nameValid} 
+                    type="text" 
+                    placeholder='Name'
+                    onChange={handleNameChange}
+                    required 
+                />
+                { nameValid !== 'failure' ? '' :  <p className='text-red-400 text-sm'>*Please make sure to fill all fields correctly</p> }
             </div>
-            <TextInput 
-                id="name" 
-                color={nameValid} 
-                type="text" 
-                placeholder='Name'
-                onChange={handleNameChange}
-                required 
-            />
-            { nameValid !== 'failure' ? '' :  <p className='text-red-400 text-sm'>*Please make sure to fill all fields correctly</p> }
-        </div>
-        <div>
-            <div className="mb-2 block">
-                <Label htmlFor="email1" color={emailValid} value="Your email" className='label-form-contact' />
+            <div>
+                <div className="mb-2 block">
+                    <Label htmlFor="email1" color={emailValid} value="Your email" className='label-form-contact' />
+                </div>
+                <TextInput 
+                    id="email1"
+                    color={emailValid} 
+                    type="email" icon={HiMail}  
+                    placeholder="name@gmail.com" 
+                    onChange={handleEmailChange}
+                    required
+                />
+                { emailValid !== 'failure' ? '' :  <p className='text-red-400 text-sm'>*Please make sure to fill all fields correctly</p> }
             </div>
-            <TextInput 
-                id="email1"
-                color={emailValid} 
-                type="email" icon={HiMail}  
-                placeholder="name@gmail.com" 
-                onChange={handleEmailChange}
-                required
-            />
-            { emailValid !== 'failure' ? '' :  <p className='text-red-400 text-sm'>*Please make sure to fill all fields correctly</p> }
-        </div>
-        <div className="max-w-md">
-            <div className="mb-2 block">
-                <Label htmlFor="comment" color={messageValid} value="Your message" className='label-form-contact' />
+            <div className="max-w-md">
+                <div className="mb-2 block">
+                    <Label htmlFor="comment" color={messageValid} value="Your message" className='label-form-contact' />
+                </div>
+                <Textarea 
+                    className="pl-1" 
+                    id="comment" 
+                    color={messageValid} 
+                    placeholder="Leave a message..."
+                    onChange={handleMessageChange} 
+                    required rows={4} 
+                />
+                { messageValid !== 'failure' ? '' :  <p className='text-red-400 text-sm'>*Please make sure to fill all fields correctly</p> }
+                
             </div>
-            <Textarea 
-                className="pl-1" 
-                id="comment" 
-                color={messageValid} 
-                placeholder="Leave a message..."
-                onChange={handleMessageChange} 
-                required rows={4} 
-            />
-            { messageValid !== 'failure' ? '' :  <p className='text-red-400 text-sm'>*Please make sure to fill all fields correctly</p> }
-            
-        </div>
-        <Button type="submit">Submit</Button>
-    </form>
-  );
+            <Button type="submit">Submit</Button>
+        </form>
+    );
 }
 
 export default ContactForm;

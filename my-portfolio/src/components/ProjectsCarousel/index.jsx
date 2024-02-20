@@ -6,7 +6,7 @@ import Project from '../singleProject';
 
 
 
-
+// Component to display carousel of projects
 const ProjectCarousel = () => {
 
     return (

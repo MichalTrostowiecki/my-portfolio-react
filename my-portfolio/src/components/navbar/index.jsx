@@ -2,8 +2,9 @@ import { useState } from "react";
 
 
 
-
+// Define Navbar component
 function Navbar() {
+    // Set state for burger menu
     const [burgerMenuActive, setMenuBurgerActive] = useState(false);
    
     // Handle click on burger menu on smaller screen sizes
@@ -15,7 +16,7 @@ function Navbar() {
 
         <nav className="w-full fixed bg-black border-b-4 border-cyan-400 z-10 -m-2 mx-auto">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-            <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
+            <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
                 <span className="self-center text-xl md:text-2xl font-semibold whitespace-nowrap text-white"><span className="text-cyan-500">Michal</span> Trostowiecki</span>
             </a>
             <button data-collapse-toggle="navbar-dropdown" onClick={handleBurgerMenu} type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-cyan-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-cyan-400 dark:hover:bg-cyan-700 dark:focus:ring-cyan-600" aria-controls="navbar-dropdown" aria-expanded="false">

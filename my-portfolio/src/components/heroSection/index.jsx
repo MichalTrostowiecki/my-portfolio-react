@@ -1,7 +1,7 @@
 import backgroundUrl from "../../assets/images/background-hero.jpg"
 import TypingEffect from "./TypingEffect";
 
-
+// Define Hero component
 const Hero = () => {
     return (
         <div className="bg-cover bg-center h-screen py-36 md:py-72 px-4 mb-10 mx-auto rounded" style={{ backgroundImage: `url(${backgroundUrl})` }}>

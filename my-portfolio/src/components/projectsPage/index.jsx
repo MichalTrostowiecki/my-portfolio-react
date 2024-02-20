@@ -3,7 +3,7 @@ import Navbar from '../navbar'
 import Footer from '../footer';
 import ProjectList from '../ProjectsList';
 
-
+// This component is a project page to display when user clicks on tab "projects"
 const ProjectsPage = () => {
     return (
         <div>

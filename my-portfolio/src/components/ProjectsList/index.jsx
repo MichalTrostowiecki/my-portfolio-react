@@ -2,7 +2,7 @@ import projects from '../../data/projects.json';
 import ProjectCard from '../ProjectCard';
 
 
-
+// This component display projects
 const ProjectList = () => {
 
     const displayProjects = (projects) => {

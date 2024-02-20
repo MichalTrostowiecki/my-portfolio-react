@@ -1,5 +1,5 @@
 
-
+// This component it's rendered inside AboutPage
 const AboutMe = () => {
     return (
 		<div className="p-4 mx-auto flex flex-col items-center mb-10">

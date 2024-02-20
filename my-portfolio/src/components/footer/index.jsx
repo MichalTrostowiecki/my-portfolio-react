@@ -1,4 +1,5 @@
 
+// Define FooterComponent
 const FooterComponent = () => {
     return (
         <footer className=" rounded-lg shadow bg-black p-2">
